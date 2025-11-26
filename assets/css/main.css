@@ -391,7 +391,7 @@ button {
 .fade-in {
     animation: fadeUp .6s ease forwards;
     opacity: 0;
-    -
+
 }
 
 .d0 {
