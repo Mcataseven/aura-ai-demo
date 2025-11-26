@@ -9,9 +9,7 @@ import AppFooter from '../components/AppFooter.vue';
 
 
 
-<style>
-@import '../assets/css/main.css';
-</style>
+
 
 
 <template>

@@ -50,6 +50,7 @@ const templates = [
 <template>
   <div class="page-wrapper min-h-screen">
     <AppHeader />
+    <div class="hero-bg"></div>
     
     <main class="main-content">
       <!-- Header -->
