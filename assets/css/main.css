@@ -243,9 +243,9 @@ button {
 .hero-cta {
     margin-top: 28px;
     display: flex;
-    border-radius: 12px;
-    background: color-mix(in oklab, var(--card) 85%, transparent);
-    backdrop-filter: blur(6px);
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .hero-bg {
@@ -391,7 +391,6 @@ button {
 .fade-in {
     animation: fadeUp .6s ease forwards;
     opacity: 0;
-
 }
 
 .d0 {
