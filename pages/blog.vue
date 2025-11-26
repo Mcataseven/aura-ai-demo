@@ -92,6 +92,6 @@ const posts = [
 
 <style scoped>
 .page-wrapper {
-  background-color: var(--background);
+  /* background-color removed to allow hero-bg to show */
 }
 </style>
