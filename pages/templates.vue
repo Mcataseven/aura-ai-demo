@@ -89,6 +89,6 @@ const templates = [
 
 <style scoped>
 .page-wrapper {
-  background-color: var(--bg);
+  background-color: var(--background);
 }
 </style>

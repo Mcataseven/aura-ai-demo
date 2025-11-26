@@ -91,6 +91,6 @@ const posts = [
 
 <style scoped>
 .page-wrapper {
-  background-color: var(--bg);
+  background-color: var(--background);
 }
 </style>
