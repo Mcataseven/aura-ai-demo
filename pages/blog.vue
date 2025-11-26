@@ -46,11 +46,11 @@ const posts = [
 </script>
 
 <template>
-  <div class="page-wrapper min-h-screen">
+  <div class="page-wrapper min-h-screen bg-[#0A0A1A] relative">
     <AppHeader />
     <div class="hero-bg"></div>
     
-    <main class="main-content">
+    <main class="main-content relative z-10">
       <!-- Header -->
       <section class="section pt-32 pb-16">
         <div class="container">

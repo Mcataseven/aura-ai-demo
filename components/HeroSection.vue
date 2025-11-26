@@ -3,7 +3,7 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero-bg"></div>
-    <div class="container">
+    <div class="container relative z-10">
       <div class="center" style="max-width: 800px; margin: 0 auto;">
         <h1>Your CRM, Reinvented.</h1>
         <p>Experience a faster, smarter way to work. Aura AI combines your entire workflow into a single, intelligent
