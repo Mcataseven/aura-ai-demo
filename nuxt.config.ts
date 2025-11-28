@@ -2,12 +2,23 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: false },
+
   css: ['~/assets/css/main.css'],
+
   modules: ['@nuxtjs/tailwindcss'],
+
   build: {
-    transpile: ['lucide-vue-next']
+    transpile: ['lucide-vue-next'],
   },
+
   app: {
-    pageTransition: { name: 'page', mode: 'out-in' }
-  }
+    pageTransition: { name: 'page', mode: 'out-in' },
+  },
+
+  // Önemli kısım: forgot-password rotasını prerender sırasında yok say
+  nitro: {
+    prerender: {
+      ignore: ['/forgot-password'],
+    },
+  },
 })
